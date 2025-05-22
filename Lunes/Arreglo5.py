@@ -19,3 +19,4 @@ for numero in numeros:
         suma_impares += 1
 print(f"La cantidad de numeros pares es: {suma_pares}")
 print(f"La cantidad de numeros impares es: {suma_impares}")
+
