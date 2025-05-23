@@ -55,7 +55,7 @@ def tienda_mas_vendio():
 def tienda_menos_vendio():
     min_venta = float('inf')
     tienda = 0
-    for i in range(len(ventas)):
+    for i in range(len(ventas)):    
         total = total_tienda(i)
         if total < min_venta:
             min_venta = total
